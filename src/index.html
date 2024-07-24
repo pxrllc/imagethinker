@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Search App</h1>
+    <div class="controls">
+        <input type="text" id="search-query" placeholder="Enter search query">
+        <button id="search-button">Search</button>
+        <button id="show-images-link">Show Saved Images</button>
+        <input type="range" id="size-slider" min="10" max="100" value="25">
+        <label for="size-slider">Image Size</label>
+        <button id="save-button">Save Positions</button>
+        <button id="load-button">Load Positions</button>
+        <button id="clear-button">Clear Images</button>
+        <input type="file" id="image-input">
+        <button id="analyze-button">Analyze Image</button>
+    </div>
+    <div id="canvas-container"></div>
+    <p id="text-output">Please select an image file first.</p>
+    <script src="renderer.js"></script>
+</body>
+</html>

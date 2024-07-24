@@ -1,0 +1,41 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#canvas-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.draggable {
+    position: absolute;
+    border: 2px solid transparent;
+    cursor: move;
+}
+
+.selected {
+    border-color: blue;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls input[type="text"] {
+    width: 200px;
+    padding: 5px;
+}
+
+.controls button, .controls input[type="range"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+#text-output {
+    margin-top: 10px;
+}
